@@ -29,35 +29,35 @@ This project aims to create a custom Large Language Model (LLM) tailored to spec
 - **CUDA Toolkit:** Version 12.1
 
 ## File Structure
-VinBot/
-├── docs/
-│   ├── QA.txt
-├── data/
-│   ├── Question-1
-│   ├── Answer-1
-│   └── ...
-├── Jsonls/
-│   ├── answers.jsonl
-│   ├── queries.jsonl
-│   ├── instruction.jsonl
-├── notebooks/
-│   ├── training_notebook.ipynb
-├── scripts/
-│   ├── __init__.py
-│   ├── create_QA.py
-│   ├── combine_QA.py
-├── lora_model/
-│   ├── adapter_config.json
-│   ├── special_tokens_map.json
-│   ├── tokenizer.json
-│   ├── tokenizer_config.json
-│   ├── tokenizer.model
-│   ├── adapter_model.safetensors
-│   ├── README.md
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── main.py
+VinBot/  <br />
+├── docs/<br />
+│   ├── QA.txt<br />
+├── data/<br />
+│   ├── Question-1<br />
+│   ├── Answer-1<br />
+│   └── ...<br />
+├── Jsonls/<br />
+│   ├── answers.jsonl<br />
+│   ├── queries.jsonl<br />
+│   ├── instruction.jsonl<br />
+├── notebooks/<br />
+│   ├── training_notebook.ipynb<br />
+├── scripts/<br />
+│   ├── __init__.py<br />
+│   ├── create_QA.py<br />
+│   ├── combine_QA.py<br />
+├── lora_model/<br />
+│   ├── adapter_config.json<br />
+│   ├── special_tokens_map.json<br />
+│   ├── tokenizer.json<br />
+│   ├── tokenizer_config.json<br />
+│   ├── tokenizer.model<br />
+│   ├── adapter_model.safetensors<br />
+│   ├── README.md<br />
+├── LICENSE<br />
+├── README.md<br />
+├── requirements.txt<br />
+└── main.py<br />
 
 ## Steps to Use the LLM Project
 
