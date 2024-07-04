@@ -64,7 +64,7 @@ VinBot/  <br />
 ### 1. Data Preprocessing
 1. **Add Your QAs**
    - create QA pairs for any topic that you want to train the LLM on
-   - while a few hundred questions may mark, it is prone to overfitting and atleast a few hundred pairs are reccomneded for even the smallest llms.
+   - while a few hundred questions may work, it is prone to overfitting and atleast a few hundred pairs are reccomneded for even the smallest llms.
    - Place your QAs in a document within the `docs` folder.
 
 2. **Ensure Correct Format**
